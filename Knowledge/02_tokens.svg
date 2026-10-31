@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect x="0" y="0" width="1200" height="800" rx="0" fill="#F7FBFF" stroke="#F7FBFF" stroke-width="0"/>
+<circle cx="81" cy="72" r="43" fill="#15345D"/>
+<text x="81" y="84" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle">2</text>
+<text x="145" y="82" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="43" font-weight="700" text-anchor="start">Tokens</text>
+<text x="47" y="139" fill="#56708A" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">The small units of text that models read and generate</text>
+<rect x="45" y="168" width="1110" height="98" rx="18" fill="#FFFFFF" stroke="#C7D9E8" stroke-width="2"/>
+<text x="68" y="204" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="800" text-anchor="start">WHAT IT IS</text>
+<text x="68" y="228" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">A token can be a word, part of a word, punctuation or</text><text x="68" y="255" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">another text unit defined by the model tokenizer.</text>
+<text x="47" y="311" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="start">HOW IT WORKS</text>
+<rect x="46" y="335" width="245" height="183" rx="18" fill="#EAF4FF" stroke="#C7D9E8" stroke-width="2"/>
+<circle cx="80" cy="370" r="19" fill="#15345D"/>
+<text x="80" y="377" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">1</text>
+<text x="66" y="418" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Text input</text>
+<text x="66" y="455" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">“Order status</text><text x="66" y="482" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">please!”</text>
+<path d="M297 427 H314" fill="none" stroke="#15345D" stroke-width="4" stroke-linecap="round"/><path d="M312 419 L326 427 L312 435" fill="none" stroke="#15345D" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="332" y="335" width="245" height="183" rx="18" fill="#D7F4EA" stroke="#C7D9E8" stroke-width="2"/>
+<circle cx="366" cy="370" r="19" fill="#15345D"/>
+<text x="366" y="377" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">2</text>
+<text x="352" y="418" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Tokenizer</text>
+<text x="352" y="455" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">“Order”  “status”</text><text x="352" y="482" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">“ please”  “!”</text>
+<path d="M583 427 H600" fill="none" stroke="#15345D" stroke-width="4" stroke-linecap="round"/><path d="M598 419 L612 427 L598 435" fill="none" stroke="#15345D" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="618" y="335" width="245" height="183" rx="18" fill="#EDE9FF" stroke="#C7D9E8" stroke-width="2"/>
+<circle cx="652" cy="370" r="19" fill="#15345D"/>
+<text x="652" y="377" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">3</text>
+<text x="638" y="418" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Token IDs</text>
+<text x="638" y="455" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Each piece maps</text><text x="638" y="482" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">to an integer</text>
+<path d="M869 427 H886" fill="none" stroke="#15345D" stroke-width="4" stroke-linecap="round"/><path d="M884 419 L898 427 L884 435" fill="none" stroke="#15345D" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="904" y="335" width="245" height="183" rx="18" fill="#FFF1CD" stroke="#C7D9E8" stroke-width="2"/>
+<circle cx="938" cy="370" r="19" fill="#15345D"/>
+<text x="938" y="377" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">4</text>
+<text x="924" y="418" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Model</text>
+<text x="924" y="455" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Processes IDs</text><text x="924" y="482" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">as context</text>
+<rect x="46" y="547" width="520" height="146" rx="18" fill="#FFFFFF" stroke="#C7D9E8" stroke-width="2"/>
+<rect x="590" y="547" width="564" height="146" rx="18" fill="#FFFFFF" stroke="#C7D9E8" stroke-width="2"/>
+<text x="69" y="584" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="start">WHY IT MATTERS</text>
+<text x="69" y="621" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Token counts affect context limits,</text><text x="69" y="649" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">latency and often API pricing.</text>
+<text x="612" y="584" fill="#15345D" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="start">PRACTICAL EXAMPLE</text>
+<text x="612" y="621" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Long chat histories use more tokens</text><text x="612" y="649" fill="#233A54" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">and leave less room for new input.</text>
+<rect x="46" y="714" width="1108" height="62" rx="14" fill="#15345D" stroke="#15345D" stroke-width="0"/>
+<text x="68" y="753" fill="#97D5F0" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="800" text-anchor="start">IN SHORT</text>
+<text x="193" y="753" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start">Text → tokens → token IDs → model; tokens affect limits and cost.</text>
+</svg>
